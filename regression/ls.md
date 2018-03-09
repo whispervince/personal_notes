@@ -6,7 +6,7 @@
 
 **Cost fn**: $$J(h) = \frac{1}{n}\sum_{i=1}^{n} L(h(x_i), y)$$
 
-我们将所有的$$x_i$$写入一个$$n*(d+1)$$的矩阵$$X$$（design matrix）。矩阵的每一行表示一个input，每一列表示一个feature。用一个维度为$$d+1$$的向量$$w$$表示weight。用一个维度为$$n$$的向量$$y$$表示输入数据对应的response的值。
+我们将所有的$$x_i$$写入一个$$n\times(d+1)$$的矩阵$$X$$（design matrix）。矩阵的每一行表示一个input，每一列表示一个feature。用一个维度为$$d+1$$的向量$$w$$表示weight。用一个维度为$$n$$的向量$$y$$表示输入数据对应的response的值。
 
 **Optimization problem**: $$\min\limits_{w} \sum_{i=1}^{n} (w^{\top}x_i-y_i)^2$$
 
