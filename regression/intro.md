@@ -22,7 +22,7 @@
 
 3. 选取衡量对于整个数据集的预测的好坏的cost fn。常用的cost fn有：
 
-   1. mean loss， $$J(h) = \frac{1}{n}\sum_{i=1}^{n} L(h(x_i), y) $$，注意对于一个数据集来说$n$可以视为常数。
+   1. mean loss， $$J(h) = \frac{1}{n}\sum_{i=1}^{n} L(h(x_i), y) $$，注意对于一个数据集来说$$n$$可以视为常数。
 
    2. max loss，$$J(h) = \max\limits_{i=1, \ldots, n} L(h(x_i), y) $$
 
