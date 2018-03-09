@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [a](hui-gui-mo-xing.md)
+* [回归模型](hui-gui-mo-xing.md)
 
