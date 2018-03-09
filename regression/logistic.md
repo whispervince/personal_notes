@@ -26,9 +26,9 @@ $$\begin{align*} \nabla_w J &= -\sum_{i=1}^{n}\frac{y_i}{s_i}\nabla_ws_i - \frac
 
 该方法是针对smooth的cost fn常用的iterative optimization method。通常情况下比gradient descent要快。
 
-**Idea**: 在任何一点$$v$$，用一个quadratic fn来近似表示该点附近的cost fn，然后直接移动到该二次函数导数为$0$的位置。重复以上操作直到获得一个满意的结果。
+**Idea**: 在任何一点$$v$$，用一个quadratic fn来近似表示该点附近的cost fn，然后直接移动到该二次函数导数为$$0$$的位置。重复以上操作直到获得一个满意的结果。
 
-在$v$点附近，$$\nabla J$$的泰勒级数为
+在$$v$$点附近，$$\nabla J$$的泰勒级数为
 
 $$\nabla J(w) = \nabla J(v) + \nabla^2 J(v)(w-v) + O(|w-v|^2)$$
 
@@ -48,7 +48,7 @@ $$\begin{align*} \nabla J(w) &= 0 \\ \nabla J(v) + \nabla^2 J(v)(w-v) &= 0 \\ \n
 
 **Disadvantage**:
 
-1. 不知道导数为$0$的点是最大值，最小值，还是鞍点。
+1. 不知道导数为$$0$$的点是最大值，最小值，还是鞍点。
 2. 需要从一个靠近最小值的点出发才能找到正确的解。
 3. 计算Hessian的成本太高。
 4. 只有当cost fn是smooth的时候才能使用。（利用了泰勒级数）
