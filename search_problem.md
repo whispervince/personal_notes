@@ -14,10 +14,10 @@ Planning agent usually outperforms reflex agents.
 
 A search problem is formulated by:
 
-- state space, the set of all possible states in the given world
-- successor fn, a fn that takes in a state and an action, and computes the cost of the action and the successor states
-- start state, the initial state of the agent
-- goal test, a fn that takes in a state and determines that whether it is a goal state
+- State space - the set of all possible states in the given world
+- Successor fn - a fn that takes in a state and an action, and computes the cost of the action and the successor states
+- Start state - the initial state of the agent
+- Goal test - a fn that takes in a state and determines that whether it is a goal state
 
 A search problem is solved by starting from the start state and iteratively exploring the state space by calling the successor fn until reaching the goal state, at which point a path is determined.
 
