@@ -73,7 +73,7 @@ DFS, BFS, UCS (Uniform Cost Search). Different strategies have different fringe 
 
 - The depth of the shallowest solution $$s$$
 
-  ​
+
 
 ### DFS
 
@@ -89,7 +89,7 @@ Use a last-in, first-out (LIFO) stack as the fringe. The most recently added obj
 
 - The space complexity if $$O(bm)$$. At each level, there are at most $$b$$ nodes in the fringe.
 
-  ​
+
 
 ### BFS
 
@@ -105,7 +105,7 @@ Use a a first-in, first-out (FIFO) queue as the fringe. Visit nodes in their ord
 
 - The space complexity is $$O(b^s)$$, which is the same as the time complexity.
 
-  ​
+
 
 ### UCS - Uniform Cost Search
 
@@ -117,6 +117,8 @@ Use a  priority queue as the fringe, where the weight for a node $$v$$ is the pa
 - UCS is optimal if all edge costs are non-negative, which guaruntees that the nodes are explored in order of increasing path cost. The idea is the same as Dijkstra's algorithm. 
 - The time complexity if $$O(b^\frac{C^*}{\epsilon})$$. Let $$C^*$$ be the optimal cost, $$\epsilon$$  be the minimum cost between two nodes, we will explore $$O(b^\frac{C^*}{\epsilon})$$ nodes. 
 - The space complexity is $$O(b^\frac{C^*}{\epsilon})$$, which is the same as the time complexity.
+
+
 
 ### Informed Search
 
