@@ -11,3 +11,4 @@
     * [Logistic Regression](regression/logistic.md)
     * [Statistical Justification](regression/justification.md)
     * [Subset Selection](regression/subset.md)
+* [Search Problem](search_problem.md)
