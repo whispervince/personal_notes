@@ -87,7 +87,7 @@ Use a last-in, first-out (LIFO) stack as the fringe. The most recently added obj
 
 - The time complexity is $$O(b^m)$$. In the worst case, DFS explores the entire tree before reach the goal state.
 
-- The space complexity if $$O(bm)$$. At each level, there are at most $$b$$ nodes in the fringe.
+- The space complexity is $$O(bm)$$. At each level, there are at most $$b$$ nodes in the fringe.
 
 
 
