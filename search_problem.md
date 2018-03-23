@@ -107,38 +107,6 @@ Use a a first-in, first-out (FIFO) queue as the fringe. Visit nodes in their ord
 
 
 
-### UCS - Uniform Cost Search
-
-Use a  priority queue as the fringe, where the weight for a node $$v$$ is the path cost from the start node to $$v$$. Each time remove a node with the lowest path cost from the fringe. 
-
-##### Properties
-
-- UCS is complete. If a solution exists, then the shortest path cost must be finite, UCS will eventually find the path.
-- UCS is optimal if all edge costs are non-negative, which guaruntees that the nodes are explored in order of increasing path cost. The idea is the same as Dijkstra's algorithm. 
-- The time complexity if $$O(b^\frac{C^*}{\epsilon})$$. Let $$C^*$$ be the optimal cost, $$\epsilon$$  be the minimum cost between two nodes, we will explore $$O(b^\frac{C^*}{\epsilon})$$ nodes. 
-- The space complexity is $$O(b^\frac{C^*}{\epsilon})$$, which is the same as the time complexity.
-
-
-
-### Informed Search
-
-If we have some notion of the direction in which we should focus our search, we can improve the performance. 
-
-##### Heuristics
-
-An estimation of distance to goal states, typically the solution to relaxed problems, where some of the constraints are removed. 
-
-##### Greedy Search
-
-Use a  priority queue as the fringe, where the weight for a node $$v$$ is the heuristic value (estimated forward cost) of the node. Each time remove the fringe node with lowest heuristic value, which corresponds to the state it believes is nearest to a goal.
-
-Greedy search is neither optimal nor complete. It depends on the goodness of the heuristic function.
-
-##### A$$^*$$ Search
-
-Use a  priority queue as the fringe, where the weight for a node $$v$$ is the estimated total cost (the sum of the total backward cost and the estimated forward cost) of the node. Each time remove the fringe node with lowest estimated total cost.
-
-Given an appropriate heuristic, A$$^*$$ search is guarunteed to be both complete and optimal. It is a combination of the generally high speed of greedy search and the completeness and optimality of UCS.
 
 
 
