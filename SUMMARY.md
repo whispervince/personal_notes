@@ -21,3 +21,6 @@
     * [Informed Search](SearchProblem/informed.md)
     * [Admissibility and Consistency](SearchProblem/admissibility.md)
 * [Constraints Satisfaction Problems](csp.md)
+    * [Introduction](CSP/introduction.md)
+    * [Constraint Graph](CSP/graph.md)
+    * [Backtrack Search](CSP/solving.md)

@@ -1,4 +1,4 @@
-### Solving CSPs
+### Backtracking Search
 
 Backtracking search, an optimization on DFS used specifically for CSPs.
 
