@@ -1,4 +1,4 @@
-### Search Problem
+### Introduction
 
 A search problem is formulated by:
 
