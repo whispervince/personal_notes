@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Index](README.md)
 * [回归模型](regression.md)
     * [Introduction](Regression/intro.md)
     * [Least-Squares Linear Regression](Regression/ls.md)
