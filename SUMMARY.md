@@ -19,5 +19,5 @@
     * [BFS](SearchProblem/bfs.md)
     * [UCS](SearchProblem/ucs.md)
     * [Informed Search](SearchProblem/informed.md)
-    * [Admissibility and Consistency](SearchProblem/adimisibility.md)
+    * [Admissibility and Consistency](SearchProblem/admissibility.md)
 * [Constraints Satisfaction Problems](csp.md)
