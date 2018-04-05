@@ -23,19 +23,19 @@ Interprets each undirected edge of the constraint graph as two directed edges po
 
 ```
 function AC-3(csp) return the CSP, possibly with reduced domains
-queue <- all arcs in csp
-while queue is not empty do
-(i, j) <- REMOVE-FIRST(queue)
-if REMOVE-INCONSISTENT-VALUES(i, j) then
-for each k in NEIGHBORS[i] do
-add (k, i) to queue
+    queue <- all arcs in csp
+    while queue is not empty do
+        (i, j) <- REMOVE-FIRST(queue)
+        if REMOVE-INCONSISTENT-VALUES(i, j) then
+            for each k in NEIGHBORS[i] do
+                add (k, i) to queue
 
 function REMOVE-INCONSISTENT-VALUES(i, j) return true iff succeed
-removed <- false
-for each x in DOMAIN[i] do
-if no value y in DOMAIN[j] allows (x, y) to satisfy the constraint (i <-> j)
-then delete x from DOMAIN[i], removed <- true
-return removed
+    removed <- false
+    for each x in DOMAIN[i] do
+        if no value y in DOMAIN[j] allows (x, y) to satisfy the constraint (i <-> j)
+            then delete x from DOMAIN[i], removed <- true
+    return removed
 ```
 
 Let $$e$$ be the number of arcs and $$d$$ be the size of the largest domain, the AC-3 algorithm has a worst case time complexity of $$O(ed^3)$$. Arc consistency requires more computation to enforce but leads to fewer backtracks.
