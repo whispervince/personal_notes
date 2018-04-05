@@ -9,15 +9,15 @@ Known as tree search.
 
 ```
 function TREE-SEARCH(problem, fringe) return solution, or failure
-fringe <- INSERT(MAKE-NODE(INITIAL-STATE[problem]), fringe)
-loop do
-if fringe is empty then return failure
-node <- REMOVE-FRONT(fringe)
-if GOAL-TEST(problem, STATE[node]) then return node
-for child-node in EXPAND(STATE[node], problem) do
-fringe <- INSERT(child-node, fringe)
-end
-end
+    fringe <- INSERT(MAKE-NODE(INITIAL-STATE[problem]), fringe)
+    loop do
+        if fringe is empty then return failure
+            node <- REMOVE-FRONT(fringe)
+        if GOAL-TEST(problem, STATE[node]) then return node
+        for child-node in EXPAND(STATE[node], problem) do
+            fringe <- INSERT(child-node, fringe)
+        end
+    end
 ```
 
 ##### Strategies
