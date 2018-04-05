@@ -6,4 +6,4 @@
 * [Search Problem](searchProblem.md)
 * [Constraints Satisfaction Problems](csp.md)
 * [Games](games.md)
-* [MDP](mdp.md)
+* [Markov Decision Processes](mdp.md)
