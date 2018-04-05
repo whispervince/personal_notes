@@ -11,18 +11,18 @@ Backtracking search, an optimization on DFS used specifically for CSPs.
 
 ```
 function BACKTRACKING-SEARCH(csp) return a solution, or failure
-return RECURSIVE-BACKTRACKING({}, csp)
+    return RECURSIVE-BACKTRACKING({}, csp)
 
 function RECURSIVE-BACKTRACKING(assignment, csp) return a solution, or failure
-if assignment is complete then return assignment
-var <- SELECT-UNASSIGNED-VARIABLE(VARIABLES[csp], assignment, csp)
-for each value in ORDER-DOMAIN-VALUES(var, assignment, csp) do
-if value is consistent with assignment given CONSTRAINTS[csp] then
-add {val = value} to assignment
-result <- RECURSIVE-BACKTRACKING(assignment, csp)
-if result != failure then return result
-remove {val = value} from assignemnt
-return failure
+    if assignment is complete then return assignment
+    var <- SELECT-UNASSIGNED-VARIABLE(VARIABLES[csp], assignment, csp)
+    for each value in ORDER-DOMAIN-VALUES(var, assignment, csp) do
+        if value is consistent with assignment given CONSTRAINTS[csp] then
+            add {val = value} to assignment
+            result <- RECURSIVE-BACKTRACKING(assignment, csp)
+            if result != failure then return result
+            remove {val = value} from assignemnt
+    return failure
 ```
 
 
