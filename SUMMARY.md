@@ -20,7 +20,7 @@
     * [UCS](SearchProblem/ucs.md)
     * [Informed Search](SearchProblem/informed.md)
     * [Admissibility and Consistency](SearchProblem/admissibility.md)
-    * [Constraints Satisfaction Problems](csp.md)
+* [Constraints Satisfaction Problems](csp.md)
     * [Introduction](CSP/introduction.md)
     * [Constraint Graph](CSP/graph.md)
     * [Backtracking Search](CSP/solving.md)
