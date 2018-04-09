@@ -42,9 +42,9 @@ While TD learning and direct evaluation have to learn the values of states befor
 
 Sometimes we cannot visit all states during training and cannot store all q-values. Approximate q-learning tries to account for this by learning a few general situations and extrapolating to many similar situations. The key idea is the feature-based representation of states, which represents each state as a feature vector of dimension $$n$$, $$f(s)$$ or $$f(s,a)$$. Then the values of states can be written as
 
-$$V(s) = w_1f_1(s) + w_2f_2(s) + \ldots + w_nf_n(s) = \vec{w}\cdot\vec{f(s)}$$
+$$V(s) = w_1f_1(s) + w_2f_2(s) + \ldots + w_nf_n(s) = \vec{w}\cdot\vec{f}(s)$$
 
-$$Q(s,a) = w_1f_1(s, a) + w_2f_2(s, a) + \ldots + w_nf_n(s, a) = \vec{w}\cdot\vec{f(s, a)}$$
+$$Q(s,a) = w_1f_1(s, a) + w_2f_2(s, a) + \ldots + w_nf_n(s, a) = \vec{w}\cdot\vec{f}(s, a)$$
 
 **Difference**: $$\text{difference} = [R(s, a, s') + \gamma \max\limits_{a'}Q(s', a')] - Q(s,a)$$
 
