@@ -50,7 +50,7 @@ $$Q(s,a) = w_1f_1(s, a) + w_2f_2(s, a) + \ldots + w_nf_n(s, a) = \vec{w}\cdot\ve
 
 **Update rule**: $$w_i \leftarrow w_i + \alpha \cdot \text{difference}\cdot f_i(s,a)$$
 
-**Update rule for exact q-learning**: $$Q(s,a) \leftarrow Q(s,a) + \alpha \cdot \text{difference}$$
+\* **Update rule for exact q-learning**: $$Q(s,a) \leftarrow Q(s,a) + \alpha \cdot \text{difference}$$
 
 We only need to store a single weight vector and can compute q-values as needed.
 
