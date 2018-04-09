@@ -16,7 +16,7 @@ Direct evaluation is often unnecessarily slow to converge because it wastes info
 
 ##### Temporal Difference
 
-Passive. Learns at every timestep. Uses the information about state transitions. Gives exponentially less weight to older, potentially less accurate samples. Converges to learning true state values much faster with fewer eposodes than direct evaluation.
+Passive. Learns at every timestep. Uses the information about state transitions. Gives exponentially less weight to older, potentially less accurate samples. Converges to learning true state values much faster with fewer episodes than direct evaluation.
 
 Uses exponential moving average to compute the weighted average represented by the Bellman equation.
 
