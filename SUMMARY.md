@@ -39,3 +39,25 @@
     * [Value Iteration](MDP/valueIteration.md)
     * [Policy Extraction](MDP/policyExtraction.md)
     * [Policy Iteration](MDP/policyIteration.md)
+* [Reinforcement Learning](rl.md)
+    * [Introduction](RL/intro.md)
+    * [Model-Based Learning](RL/modelBased.md)
+    * [Model-Free Learning](RL/modelFree.md)
+    * [Exploration and Exploitation](RL/ene.md)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

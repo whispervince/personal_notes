@@ -7,3 +7,4 @@
 * [Constraints Satisfaction Problems](csp.md)
 * [Games](games.md)
 * [Markov Decision Processes](mdp.md)
+* [Reinforcement Learning](rl.md)
