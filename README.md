@@ -8,3 +8,5 @@
 * [Games](games.md)
 * [Markov Decision Processes](mdp.md)
 * [Reinforcement Learning](rl.md)
+* [Probability Inference](probInference.md)
+* [Decision Networks](decisionNetworks.md)
