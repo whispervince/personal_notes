@@ -1,4 +1,3 @@
-
 ### The Value of Perfect Information
 
 In practice, it is difficult to make sure that the agent has all the information it needs for a particular problem. One of the most important parts of decision making is knowing whether or not it is worth gathering more evidence to help decide which action to take. The value of perfect information quantifies the amount an agent's MEU expected to increase if it observes some new evidence. Then we can compare the VPI of learning some new information with the cost to determine whether it is worthwhile to observe.
