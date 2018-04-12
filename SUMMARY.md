@@ -44,6 +44,17 @@
     * [Model-Based Learning](RL/modelBased.md)
     * [Model-Free Learning](RL/modelFree.md)
     * [Exploration and Exploitation](RL/ene.md)
+* [Probability Inference](probInference.md)
+    * [Introduction](ProbInference/intro.md)
+    * [Representation](ProbInference/representation.md)
+    * [Inference](ProbInference/inference.md)
+    * [Sampling](ProbInference/sampling.md)
+    * [D-Separation](ProbInference/dseparatino.md)
+
+
+
+
+
     
 
 
