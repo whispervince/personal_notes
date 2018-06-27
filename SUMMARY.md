@@ -38,7 +38,7 @@
   * [Representation](ProbInference/representation.md)
   * [Inference](ProbInference/inference.md)
   * [Sampling](ProbInference/sampling.md)
-  * [D-Separation](ProbInference/dseparatino.md)
+  * [D-Separation](ProbInference/dseparation.md)
 * [Decision Network](decisionNetworks.md)
   * [Introduction](DecisionNetworks/intro.md)
   * [VPI](DecisionNetworks/vpi.md)
