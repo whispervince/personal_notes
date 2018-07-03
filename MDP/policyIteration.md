@@ -6,7 +6,8 @@
 
 2. Repeat the following until convergence:
 
-   1. Evaluate the current policy. For a policy $$\pi$$, compute $$V^{\pi}(s)= \sum_{s'}T(s,\pi(s),s')[R(s,\pi(s),s')+\gamma V^{\pi}(s')]$$ 
+   1. Evaluate the current policy. For a policy $$\pi$$, compute 
+      $$V^{\pi}(s)= \sum_{s'}T(s,\pi(s),s')[R(s,\pi(s),s')+\gamma V^{\pi}(s')]$$ 
 
       Define the policy at iteration $$i$$ is $$\pi_{i}$$. Since we are fixing a single action for each state, each $$V^{\pi_i}(s)$$ can be computed by solving a linear system. 
 
