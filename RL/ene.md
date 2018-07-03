@@ -1,6 +1,6 @@
 ### Exploration and Exploitation
 
-##### $\mathcal{E}$-Greedy Policies
+##### $$\mathcal{E}$$-Greedy Policies
 
 Defines some probability $$0 \le \epsilon \le 1$$. Acts randomly and explores with probability $$\epsilon$$, and follows the current established policy and exploits with probability $$1-\epsilon$$.
 
